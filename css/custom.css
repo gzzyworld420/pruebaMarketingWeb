@@ -1,0 +1,168 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+*{
+	font-family: 'Poppins', sans-serif;
+
+}
+/* Header */
+.header-wrap-clone{
+	/* quiero que esta clase no se muestre*/
+	display: none;
+}
+
+/* Home Video */
+.revo-slider-emphasis-text {
+	font-size: 64px;
+	font-weight: 700;
+	letter-spacing: -1px;
+	font-family: 'Poppins', sans-serif;
+	padding: 15px 20px;
+	border-top: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+}
+
+.revo-slider-desc-text {
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	width: 650px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.revo-slider-caps-text {
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	font-family: 'Poppins', sans-serif;
+}
+.tp-video-play-button { display: none !important; }
+
+.tp-caption { white-space: nowrap; }
+
+.imgPhone{
+	height: 10px;
+}
+
+/* Gallery */
+.titleGallery{
+	color: black;
+}
+/* Feaured Carousel
+-----------------------------------------------------------------*/
+#oc-features .owl-item:not(.active) { opacity: .4; }
+
+#oc-features .owl-item p {
+	font-size: 16px;
+	font-weight: 300;
+	color: #666;
+}
+
+/* Logo */
+.cameraLara{
+	width: 500px;
+}
+
+/* Phone Gallery */
+.owl-stage-outer { padding: 0; }
+
+.owl-stage-outer .owl-stage-outer-bg {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-image: url('landing/images/section/device.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+
+.owl-item img {
+	width: 100%;
+	transform: scale(0.85);
+	transition: transform .3s cubic-bezier(0.2, 0.7, .3, 1);
+}
+
+.owl-item.active.center img {
+	transform: scale(0.95);
+}
+
+.owl-carousel .owl-dots .owl-dot {
+	opacity: .3;
+	margin-top: 40px;
+	width: 20px;
+	height: 5px;
+	border-radius: 4px;
+	transition: all .3s cubic-bezier(0.2, 0.7, .3, 1);
+}
+
+.owl-carousel .owl-dots .owl-dot.active { width: 50px; }
+
+
+/* Footer */
+.border-light-lg {
+	border-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Video */
+.tp-video-play-button { display: none !important; }
+		.tp-caption { white-space: nowrap; }
+
+
+
+		.owl-stage-outer { padding: 0; }
+
+		.owl-stage-outer .owl-stage-outer-bg {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 100%;
+			height: 100%;
+			-webkit-background-size: contain;
+			background-size: contain;
+			background-image: url('images/section/device.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+			transform: translate(-50%,-50%);
+			z-index: 1;
+		}
+
+		.owl-item img {
+			width: 80%;
+			height: 550px;
+			transform: scale(0.85);
+			transition: transform .3s cubic-bezier(0.2, 0.7, .3, 1);
+		}
+
+		@media only screen and (max-width: 767px) {
+			.owl-item img {
+				width: 80%;
+				height: 370px;
+				transform: scale(0.85);
+				transition: transform .3s cubic-bezier(0.2, 0.7, .3, 1);
+		}
+		}
+
+		.owl-item.active.center img {
+			transform: scale(0.95);
+		}
+
+		.owl-carousel .owl-dots .owl-dot {
+			opacity: .3;
+			margin-top: 40px;
+			width: 20px;
+			height: 5px;
+			border-radius: 4px;
+			transition: all .3s cubic-bezier(0.2, 0.7, .3, 1);
+		}
+
+		.owl-carousel .owl-dots .owl-dot.active { width: 50px; }
